@@ -1,0 +1,68 @@
+<html>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <style>
+    body{
+        background-color:rgb(250,120,120);
+        
+    }
+    h1{
+        color:rgb(80,80,200);
+        margin-top:5%;
+        margin-bottom:10%;
+        font-family:Merriweather;
+        font-size:50px;
+    }
+    
+    h2{font-family:Merriweather;
+        font-size:35px;
+        margin: 10% auto 0% auto;
+    }
+    .Btn{
+        margin:10% auto 0px auto;
+        background-color:rgb(80,80,230);
+        color:rgb(255,255,255);
+        border-radius:5px;
+        border-style:none;
+        box-shadow:2px 2px 5px rgb(50,50,50);
+        padding:5px;
+    }
+    .Btn:hover
+    {
+        margin:10% auto 0px auto;
+        background-color:rgb(100,100,250);
+        color:rgb(255,255,255);
+        border-radius:5px;
+        border-style:none;
+        box-shadow:2px 2px 5px rgb(50,50,50);
+        padding:5px;
+    }
+    .Btn:active{
+        margin:10% auto 0px auto;
+        background-color:rgb(80,80,230);
+        color:rgb(255,255,255);
+        border-radius:5px;
+        border-style:none;
+        box-shadow:2px 2px 5px rgba(50,50,50,0);
+        padding:5px;
+    }
+    
+    </style>
+    <body>
+        <form method="post" enctype="multipart/form-data" action="/">
+            <h1 class='text-center'>
+                File Metadata Microservice
+            </h1>
+            <div class='row' class='centerBtn'>
+                <div class='col-xs-3'></div>
+                <div class='col-xs-3'>
+                    <input name='upload' type='file'class='Btn'>
+                </div>
+                <div class='col-xs-3'>
+                    <input name='send' type='submit'class='Btn'>
+                </div>
+                <div class='col-xs-3'></div>
+            </div>
+        </form>
+    </body>
+</html>
